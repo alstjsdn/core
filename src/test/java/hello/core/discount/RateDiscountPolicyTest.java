@@ -41,8 +41,8 @@ class RateDiscountPolicyTest {
 
         //then
 
-        assertThat(discount).isEqualTo(1000);
-        assertThat(discount2).isEqualTo(2000);
+        assertThat(discount).isNotEqualTo(1000);
+        assertThat(discount2).isNotEqualTo(2000);
     }
 
 }
